@@ -3250,6 +3250,23 @@ input, select, textarea {
 			}
 
 	}
+
+			.media video {
+				width: 100%;
+				height: auto;
+				max-width: 400px;
+				max-height: 300px;
+				object-fit: cover;  /* crops video if needed, keeps proportions */
+			}
+			.image video {
+				display: block;
+				width: 350px;      /* or whatever fits nicely */
+  				height: auto;
+  				object-fit: cover;
+				max-height: 250px;
+				border-radius: 8px;
+			}
+
 /* Art Display */
 			.art-grid {
 				display: grid;
